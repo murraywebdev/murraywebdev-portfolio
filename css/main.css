@@ -1,0 +1,414 @@
+/***** MAIN STYLES *****/
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/***** GRID STYLES *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 33%;
+  float: left;
+}
+
+.one-third-width {
+  width: 33%;
+  float: left;
+}
+
+.two-third-width {
+  width: 66%;
+  float: left;
+}
+
+.quarter-width {
+  width: 25%;
+  float: left;
+}
+
+/***** HEADER SECTION *****/
+
+header {
+  background-color: #fff;
+}
+
+header h2 {
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+header h2 span {
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header a:link {
+  color:#000;
+}
+
+header a:visited {
+  color: #000;
+}
+
+nav {
+  float: right;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+  padding-left: 40px;
+  color: black;
+}
+
+/***** HEADER IMAGE SECTION *****/
+
+#header-image {
+  clear: both;
+  background: url(../img/hero.jpg);
+  margin: auto;
+  background-size: cover;
+}
+
+#header-image h1 {
+  clear: both;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 55px;
+  padding-top: 250px;
+  font-weight: 700;
+  color: #fff;
+}
+
+#header-image img {
+  display: block;
+  margin: auto;
+  padding-top: 200px;
+  padding-bottom: 40px;
+}
+
+/***** WORK SECTION *****/
+
+
+#work h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  color: #758a8f;
+}
+
+#work img {
+  display: block;
+  margin: auto;
+  border: 1px solid #758a8f;
+  margin-bottom: 80px;
+  width: 300px;
+  max-height: 150px;
+}
+
+#work .full-width a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #758a8f;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #758a8f;
+}
+
+#work-button {
+  clear: both;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#work a:hover {
+  color: #758a8f;
+  background-color: #fff;
+  border-color: #758a8f;
+}
+
+#work {
+  margin-top: 10px;
+  margin-bottom: 150px;
+  padding-top: 5px;
+}
+
+/***** ABOUT SECTION *****/
+
+#about .full-width {
+  padding-bottom: 50px;
+  border: 7px solid #758a8f;
+}
+
+#about h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+#about img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  padding-right:20px;
+}
+
+#about h4 {
+  font-size: 24px;
+  weight: 400;
+  margin-top: 0;
+  color: #888;
+}
+
+#about p {
+  font-size: 20px;
+  font-weight: 200;
+  padding-right: 60px;
+}
+
+#about .full-width a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+#about-button {
+  clear: both;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#about a:hover {
+  color: #758a8f;
+  border-color: #758a8f;
+}
+
+#about {
+  margin-bottom: 60px;
+  padding-top: 5px;
+}
+
+
+/***** SERVICES SECTION *****/
+
+#services {
+  background-color: #fff;
+}
+
+#services h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+#services h4 {
+  font-size: 22px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #888;
+}
+
+#services img {
+  display: block;
+  margin: auto;
+}
+
+#services h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #000;
+  margin-top: 0px;
+  text-shadow: 1px 1px #888;
+  padding-bottom: 40px;
+}
+
+#services .full-width a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  padding: 15px 25px;
+  border: 1px solid #fff;
+  background-color: #758a8f;
+}
+
+#services-button {
+  clear: both;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#services a:hover {
+  color: #758a8f;
+  background-color: #fff;
+  border-color: #758a8f;
+}
+
+#services {
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  padding-top: 5px;
+}
+
+/***** CONTACT SECTION *****/
+
+#contact {
+  background-color: #758a8f;
+}
+
+#contact h2 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #fff;
+  padding-top: 20px;
+}
+
+#contact p {
+  clear: both;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+#contact h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  padding-top: -10px;
+  margin-bottom: 50px;
+}
+
+/***** email address button *****/
+
+#email-button a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#email-button {
+  clear: both;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#email-button a:hover{
+  color: #000;
+}
+
+/***** SOCIAL MEDIA LINKS *****/
+
+ #contact ul li{
+  text-decoration: none;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+#contact ul {
+  margin-left: 400px;
+  padding-bottom: 40px;
+}
+
+  /***** FOOTER SECTION *****/
+
+footer {
+  clear: both;
+  height: 150px;
+}
+
+footer h2 {
+  padding-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 200;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+
+/**************************************************************************
+PAGE 2 - WORK ****************************************************************/
+
+/***** TITLE STYLES *****/
+
+#page2-title {
+  clear: both;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#page2-title h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #758a8f;
+  margin-bottom: -20px;
+}
+
+#page2-title p {
+  font-size: 35px;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 60px;
+}
+
+/***** IMAGE & IMAGE TITLE STYLES ******/
+
+#page2-images {
+  text-align: center;
+}
+
+#page2-images h3 {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 80px;
+}
+
+#page2-images img {
+  border: 1px solid #758a8f;
+}
